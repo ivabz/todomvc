@@ -1,66 +1,90 @@
-# TodoMVC
+# ![TodoMVC](https://raw.github.com/tastejs/todomvc/gh-pages/media/logo.png)
 
-#### A common learning application for popular JavaScript MV* frameworks
+## Helping you select an MV\* framework
 
 
-## Introduction
+Developers these days are spoiled with choice when it comes to selecting an MV\* framework for structuring and organizing JavaScript web apps.
 
-Developers these days are spoiled with choice when it comes to selecting an MV* framework for structuring and organizing JavaScript web apps. Backbone, Spine, Ember.js, AngularJS, JavaScriptMVC... The list of new and stable solutions goes on and on, but just how do you decide on which to use in a sea of so many options?
+Backbone, Ember, AngularJS, Spine... the list of new and stable solutions goes on and on, but just how do you decide on which to use in a sea of so many options?
 
-To help solve this problem, TodoMVC was created - a project which offers the same Todo application implemented using MVC concepts in most of the popular JavaScript MV* frameworks of today. Solutions look and feel the same, have a common feature set, and make it easy for you to compare the syntax and structure of different frameworks, so you can select the one you feel the most comfortable with.
+To help solve this problem, we created TodoMVC - a project which offers the same Todo application implemented using MV* concepts in most of the popular JavaScript MV\* frameworks of today.
 
 
 #### Todo apps are included for:
 
 - [Backbone.js](http://documentcloud.github.com/backbone)
 - [Ember.js](http://emberjs.com)
-- [JavaScriptMVC](http://javascriptmvc.com)
-- [Spine.js](http://spinejs.com)
+- [AngularJS](http://angularjs.org)
+- [Spine](http://spinejs.com)
 - [KnockoutJS](http://knockoutjs.com) (MVVM)
-- [Knockback.js](http://kmalakoff.github.com/knockback)
 - [Dojo](http://dojotoolkit.org)
-- [Closure](http://code.google.com/closure/library/)
 - [YUI](http://yuilibrary.com)
+<<<<<<< HEAD
 - [AngularJS](http://angularjs.org)
 - [AngularJS](http://angularjs.org) + [PersistenceJS](http://persistencejs.org)
 - [Ext.js](http://www.sencha.com/products/extjs)
+=======
+- [Batman.js](http://batmanjs.org)
+- [Closure](http://code.google.com/closure/library/)
+>>>>>>> tastejs/gh-pages
 - [Agility.js](http://agilityjs.com)
+- [Knockback.js](http://kmalakoff.github.com/knockback)
+- [Google Web Toolkit](https://developers.google.com/web-toolkit/)
 
-###### Non MV*
+
+###### Non-framework Implementations
 
 - [jQuery](http://jquery.com)
-- Vanilla JS
+- [Vanilla JS](http://todomvc.com/vanilla-examples/vanillajs/)
 
 ###### RequireJS
 
-- [Backbone.js](http://documentcloud.github.com/backbone) + [RequireJS](http://requirejs.org) (using AMD)
-- [Ember.js](http://emberjs.com) + [RequireJS](http://requirejs.org) (using AMD)
-
+- [Backbone.js](http://documentcloud.github.com/backbone) + [RequireJS](http://requirejs.org)
+- [AngularJS](http://angularjs.org) + [RequireJS](http://requirejs.org)
+- [KnockoutJS](http://knockoutjs.com) + [RequireJS](http://requirejs.org)
+- [CanJS](http://canjs.us) + [RequireJS](http://requirejs.org)
 
 #### Labs
 
-We also have a number of in-progress applications in our [Labs](http://addyosmani.github.com/todomvc/labs) site. These include:
+We also have a number of in-progress applications in Labs:
 
-- [CanJS](http://canjs.us)
-- [Maria.js](https://github.com/petermichaux/maria)
-- [Batman.js](http://batmanjs.org)
+- [React](http://facebook.github.io/react)
 - [Meteor](http://meteor.com)
-- [Google Web Toolkit](https://developers.google.com/web-toolkit/)
+- [Derby](http://derbyjs.com)
+- [CanJS](http://canjs.us)
+- [Kendo UI](http://kendoui.com)
+- [Flight by Twitter](https://github.com/twitter/flight)
+- [Maria.js](https://github.com/petermichaux/maria)
+- [cujoJS](http://cujojs.com)
+- [MarionetteJS](http://marionettejs.com/)
+- [SocketStream](http://www.socketstream.org) + [jQuery](http://jquery.com)
+- [Ext.js](http://www.sencha.com/products/extjs)
+- [Sammy.js](http://sammyjs.org)
+- [dermis](https://github.com/wearefractal/dermis)
 - [Stapes.js](http://hay.github.com/stapes)
+- [Epitome](http://dimitarchristoff.github.com/Epitome)
 - [TroopJS](https://github.com/troopjs)
 - [soma.js](http://somajs.github.com/somajs)
 - [DUEL](https://bitbucket.org/mckamey/duel/wiki/Home)
-- [Fidel](https://github.com/jgallen23/fidel)
 - [Olives](https://github.com/flams/olives)
 - [PlastronJS](https://github.com/rhysbrettbowen/PlastronJS)
 - [Dijon](https://github.com/creynders/dijon-framework)
-- [Sammy.js](http://sammyjs.org)
 - [rAppid.js](http://www.rappidjs.com)
-- [Broke](https://github.com/brokenseal/broke)
 - [o_O](http://weepy.github.com/o_O)
-- [Fun](https://github.com/marcuswestin/fun)
+- [Thorax](http://walmartlabs.github.com/thorax/)
+- [KnockoutJS](http://knockoutjs.com) + [ClassBindingProvider](https://github.com/rniemeyer/knockout-classBindingProvider) (using Ryan Niemeyer's Class Binding Provider)
+- [KnockoutJS](http://knockoutjs.com) + [RequireJS](http://requirejs.org) (using AMD)
 - [AngularJS](http://angularjs.org) + [RequireJS](http://requirejs.org) (using AMD)
-
+- [CanJS](http://canjs.us) + [RequireJS](http://requirejs.org) (using AMD)
+- [AngularJS](http://angularjs.org) (optimized)
+- [Backbone.xmpp](https://github.com/ggozad/Backbone.xmpp)
+- [Dart](http://dartlang.org)
+- [Chaplin](http://chaplinjs.org) + [Brunch](http://brunch.io)
+- [Serenade.js](https://github.com/elabs/serenade.js)
+- [TypeScript](http://www.typescriptlang.org/)
+- [DeftJS](http://deftjs.org/)
+- [Aria Templates](http://ariatemplates.com/)
+- [Enyo + Backbone.js](http://enyojs.com/)
 
 ## Live demos
 
@@ -69,12 +93,12 @@ Live demos are available on our [website](http://todomvc.com)
 
 ## Screenshot
 
-![screenshot](https://raw.github.com/addyosmani/todomvc/master/screenshot.png)
+![screenshot](https://raw.github.com/tastejs/todomvc/gh-pages/screenshot.png)
 
 
 ## Team
 
-TodoMVC would not be possible without a strong team of [contributors](https://github.com/addyosmani/todomvc/contributors) helping push the project forward each day. In addition, we have a core project team composed of:
+TodoMVC would not be possible without a strong team of [contributors](https://github.com/tastejs/todomvc/contributors) helping push the project forward each day. In addition, we have a core project team composed of:
 
 #### [Addy Osmani](http://github.com/addyosmani) - Founder/Lead
 
@@ -86,14 +110,24 @@ Addy is a Developer Platform Engineer at Google who originally created TodoMVC. 
 <img align="left" width="40" height="40" src="http://www.gravatar.com/avatar/d36a92237c75c5337c17b60d90686bf9.png?s=40">
 Sindre is a Web Developer who drives core development, quality control and application design for the project. His contributions have helped us ensure consistency and best practices are enforced wherever possible.
 
-#### [Aaron Boushley](https://github.com/boushley) - on leave
+#### [Pascal Hartig](https://github.com/passy) - Developer
 
-Aaron is a JavaScript developer with a keen interest in architectural frameworks and has helped both standardize existing examples and improve the project as we worked on expansion. He is currently taking a break from his open-source contributions at this time.
+<img align="left" width="40" height="40" src="http://www.gravatar.com/avatar/be451fcdbf0e5ff07f23ed16cb5c90a3.png?s=40">
+Pascal is a Software Engineer at weluse GmbH with a deep passion for consistency. He watches pull requests and helps developers getting their contributions integrated with TodoMVC.
 
-#### [Gianni Chiappetta](http://gitub.com/gf3) - Logo designer
+#### [Stephen Sawchuk](https://github.com/stephenplusplus) - Developer
 
+<img align="left" width="40" height="40" src="https://secure.gravatar.com/avatar/098cfe2d360e77c3229f2cd5298354c4?s=40">
+Stephen is a Front-end Engineer at Quicken Loans that cares about improving the maintainability and developer experience of open-source projects. His recent contributions include helping us move all apps over to using Bower and implementing the new information bar.
+
+#### [Gianni Chiappetta](https://github.com/gf3) - Logo designer
+
+<img align="left" width="40" height="40" src="http://www.gravatar.com/avatar/4b0209ae3652cc5a7d53545e759fbe39.png?s=40">
+Gianni is a programmer and designer currently working as the Chief Rigger at MetaLab.
 
 ## Disclaimer
+
+<img align="right" width="230" height="230" src="https://raw.github.com/tastejs/todomvc/gh-pages/media/icon-small.png">
 
 TodoMVC has been called many things including the 'Speed-dating' and 'Rosetta Stone' of MV* frameworks. Whilst we hope that this project is able to offer assistance in deciding what frameworks are worth spending more time looking at, remember that the Todo application offers a limited view of what a framework may be capable of.
 
@@ -102,38 +136,17 @@ It is meant to be used as a gateway to reviewing how a basic application using a
 
 ## Project Status
 
-TodoMVC is currently preparing applications for the next major release of the project due out in early July. This will include re-writes of almost all applications, ensuring they follow a consistent set of specifications and are using the latest versions of all libraries and frameworks in use. We will also be addressing framework author concerns about routing by adding this to some of the more mainstream applications in the project.
+TodoMVC 1.0 includes re-writes of almost all applications, ensuring they follow a consistent set of specifications and are using the latest versions of all libraries and frameworks in use. We've also addressed framework author concerns about routing by adding this to many of the more mainstream applications in the project.
 
 
 ## Getting Involved
 
 Whilst we enjoy implementing and improving existing Todo apps, we're always interested in speaking to framework authors (and users) wishing to share Todo app implementations in their framework/solution of choice.
 
-### New Applications
-
-If you have an implementation you would like to show us or a patch you would like to send upstream, please feel free to send through a pull request after:
-
-* Reading our [contribution guidelines](https://github.com/addyosmani/todomvc/wiki)
-* Going through our [application specification](https://github.com/addyosmani/todomvc/wiki/App-Specification)
-* Looking at our most recent [reference application](https://github.com/addyosmani/todomvc/tree/master/architecture-examples/spine)
-
-One of us will be happy to review your submission and discuss any changes that may be required before they can be included.
-
-
-### Unit Tests
-
-At present, due to the large number of applications in the TodoMVC suite we haven't been mandating that unit tests be written in order for an application to be accepted.
-
-We do however plan on addressing this in a future release as we feel it would both help further ensure consistency and provide developers with a reference for writing tests for each framework.
-
-If you are a library author or contributor wishing to start work on writing tests for an implementation, we'll happily consider including them in the future. This may change based on how we specify unit tests must be structured and so on post 1.0.
-
-
-### A Final Note
-
-Note that due to the current number of MVC/MVVM/MV* frameworks in circulation at the moment, it's not always possible to include each one in TodoMVC, but we'll definitely discuss the merits of any framework prior to making a decision. We hope you understand :)
+Check out our [contribution docs](contributing.md) for more info.
 
 
 ## License
 
-Public Domain
+MIT License  
+Copyright (c) Addy Osmani, Sindre Sorhus & Pascal Hartig
